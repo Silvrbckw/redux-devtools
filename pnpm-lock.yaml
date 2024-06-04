@@ -64,7 +64,7 @@ importers:
         version: 11.11.3(@types/react@18.2.55)(react@18.2.0)
       '@redux-devtools/app':
         specifier: ^6.0.0
-        version: link:../packages/redux-devtools-app
+        version: 6.0.1(@emotion/react@11.11.3)(@types/react-dom@18.2.19)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@redux-devtools/core':
         specifier: ^4.0.0
         version: link:../packages/redux-devtools
@@ -76,10 +76,10 @@ importers:
         version: link:../packages/redux-devtools-serialize
       '@redux-devtools/slider-monitor':
         specifier: ^5.0.0
-        version: link:../packages/redux-devtools-slider-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
       '@redux-devtools/ui':
         specifier: ^1.3.0
-        version: link:../packages/redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@redux-devtools/utils':
         specifier: ^3.0.0
         version: link:../packages/redux-devtools-utils
@@ -160,8 +160,8 @@ importers:
         specifier: ^5.1.34
         version: 5.1.34
       chromedriver:
-        specifier: ^118.0.1
-        version: 118.0.1
+        specifier: ^119.0.1
+        version: 119.0.1
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -199,8 +199,8 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0
       pug:
-        specifier: ^3.0.2
-        version: 3.0.2
+        specifier: ^3.0.3
+        version: 3.0.3
       rimraf:
         specifier: ^5.0.5
         version: 5.0.5
@@ -1005,31 +1005,31 @@ importers:
         version: 7.23.9
       '@redux-devtools/chart-monitor':
         specifier: ^5.0.0
-        version: link:../redux-devtools-chart-monitor
+        version: 5.0.2(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/core':
         specifier: ^4.0.0
         version: link:../redux-devtools
       '@redux-devtools/inspector-monitor':
         specifier: ^6.0.0
-        version: link:../redux-devtools-inspector-monitor
+        version: 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/inspector-monitor-test-tab':
         specifier: ^4.0.0
         version: link:../redux-devtools-inspector-monitor-test-tab
       '@redux-devtools/inspector-monitor-trace-tab':
         specifier: ^4.0.0
-        version: link:../redux-devtools-inspector-monitor-trace-tab
+        version: 4.0.1(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/log-monitor':
         specifier: ^5.0.0
-        version: link:../redux-devtools-log-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/rtk-query-monitor':
         specifier: ^5.0.0
-        version: link:../redux-devtools-rtk-query-monitor
+        version: 5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
       '@redux-devtools/slider-monitor':
         specifier: ^5.0.0
-        version: link:../redux-devtools-slider-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
       '@redux-devtools/ui':
         specifier: ^1.3.1
-        version: link:../redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@reduxjs/toolkit':
         specifier: ^1.9.7
         version: 1.9.7(react-redux@8.1.3)(react@18.2.0)
@@ -1304,7 +1304,7 @@ importers:
         version: 11.11.3(@types/react@18.2.55)(react@18.2.0)
       '@redux-devtools/app':
         specifier: ^6.0.0
-        version: link:../redux-devtools-app
+        version: 6.0.1(@emotion/react@11.11.3)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@types/react':
         specifier: ^18.2.55
         version: 18.2.55
@@ -1324,8 +1324,8 @@ importers:
         specifier: ^27.3.2
         version: 27.3.2
       express:
-        specifier: ^4.18.2
-        version: 4.18.2
+        specifier: ^4.19.2
+        version: 4.19.2
       get-port:
         specifier: ^7.0.0
         version: 7.0.0
@@ -1713,7 +1713,7 @@ importers:
         version: 7.23.9
       '@redux-devtools/ui':
         specifier: ^1.3.1
-        version: link:../redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@types/styled-components':
         specifier: ^5.1.34
         version: 5.1.34
@@ -1768,7 +1768,7 @@ importers:
         version: link:../redux-devtools
       '@redux-devtools/inspector-monitor':
         specifier: ^6.0.0
-        version: link:../redux-devtools-inspector-monitor
+        version: 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -1843,16 +1843,16 @@ importers:
         version: link:../../redux-devtools
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/inspector-monitor':
         specifier: ^6.0.0
-        version: link:../../redux-devtools-inspector-monitor
+        version: 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/inspector-monitor-test-tab':
         specifier: ^4.0.0
         version: link:..
       '@redux-devtools/ui':
         specifier: ^1.3.0
-        version: link:../../redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       immutable:
         specifier: ^4.3.5
         version: 4.3.5
@@ -2025,7 +2025,7 @@ importers:
         version: link:../redux-devtools
       '@redux-devtools/inspector-monitor':
         specifier: ^6.0.0
-        version: link:../redux-devtools-inspector-monitor
+        version: 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -2112,10 +2112,10 @@ importers:
         version: link:../../redux-devtools
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/inspector-monitor':
         specifier: ^6.0.0
-        version: link:..
+        version: 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
       base16:
         specifier: ^1.0.0
         version: 1.0.0
@@ -2458,7 +2458,7 @@ importers:
         version: 7.23.9
       '@redux-devtools/ui':
         specifier: ^1.3.1
-        version: link:../redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@types/lodash':
         specifier: ^4.14.202
         version: 4.14.202
@@ -2612,10 +2612,10 @@ importers:
         version: link:../../redux-devtools
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/rtk-query-monitor':
         specifier: ^5.0.0
-        version: link:..
+        version: 5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
       '@reduxjs/toolkit':
         specifier: ^1.9.7
         version: 1.9.7(react-redux@8.1.3)(react@18.2.0)
@@ -2803,7 +2803,7 @@ importers:
         version: 7.23.9
       '@redux-devtools/ui':
         specifier: ^1.3.1
-        version: link:../redux-devtools-ui
+        version: 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
       '@types/redux-devtools-themes':
         specifier: ^1.0.3
         version: 1.0.3
@@ -2882,13 +2882,13 @@ importers:
         version: link:../../../redux-devtools
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/log-monitor':
         specifier: ^5.0.0
-        version: link:../../../redux-devtools-log-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/slider-monitor':
         specifier: ^5.0.0
-        version: link:../..
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
       classnames:
         specifier: ^2.5.1
         version: 2.5.1
@@ -3260,10 +3260,10 @@ importers:
         version: link:../..
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/log-monitor':
         specifier: ^5.0.0
-        version: link:../../../redux-devtools-log-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -3357,10 +3357,10 @@ importers:
         version: link:../..
       '@redux-devtools/dock-monitor':
         specifier: ^4.0.0
-        version: link:../../../redux-devtools-dock-monitor
+        version: 4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       '@redux-devtools/log-monitor':
         specifier: ^5.0.0
-        version: link:../../../redux-devtools-log-monitor
+        version: 5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
       classnames:
         specifier: ^2.5.1
         version: 2.5.1
@@ -3539,7 +3539,7 @@ packages:
       '@types/node-fetch': 2.6.11
       async-retry: 1.3.3
       cors: 2.8.5
-      express: 4.18.2
+      express: 4.19.2
       graphql: 16.8.1
       loglevel: 1.9.1
       lru-cache: 7.18.3
@@ -3689,6 +3689,14 @@ packages:
     dependencies:
       '@babel/highlight': 7.23.4
       chalk: 2.4.2
+
+  /@babel/code-frame@8.0.0-alpha.10:
+    resolution: {integrity: sha512-ZomLvZDgm4HwXt4sldtnMwiPOQK+pmX+zKOMst5XVEzC3jngdl+HIwXoUtthoBhiIzlhfO1KdBF9zvILG2izSQ==}
+    engines: {node: ^18.20.0 || ^20.10.0 || >=21.0.0}
+    dependencies:
+      '@babel/highlight': 8.0.0-alpha.10
+      picocolors: 1.0.0
+    dev: false
 
   /@babel/code-frame@8.0.0-alpha.6:
     resolution: {integrity: sha512-w29LUiFqVMe+Ybp/+xtQKAp6rpxjHxtCW909I0OMHvFKzrGB0K+1yQGRzXhTqrd4f7ZRRgzkAxdr0EOEbHt3dA==}
@@ -3920,6 +3928,11 @@ packages:
     resolution: {integrity: sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==}
     engines: {node: '>=6.9.0'}
 
+  /@babel/helper-validator-identifier@8.0.0-alpha.10:
+    resolution: {integrity: sha512-P62S/nI9tQHVs7xALzMPvGxSfwYpRVb8cbReTPjDCXKJO+nfX9VkwY768xHUQEn2FIUbwvP3EUzsa32eFOzhog==}
+    engines: {node: ^18.20.0 || ^20.10.0 || >=21.0.0}
+    dev: false
+
   /@babel/helper-validator-identifier@8.0.0-alpha.6:
     resolution: {integrity: sha512-a0YnAx4TJCgds07M2v0A3WeyZUfls2YOgNHCb1akGKlz5KdmTCqf2N2hw86YhjY6oDqb6Omb8gFKz/3TOKRevQ==}
     engines: {node: ^16.20.0 || ^18.16.0 || >=20.0.0}
@@ -3955,6 +3968,15 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
+
+  /@babel/highlight@8.0.0-alpha.10:
+    resolution: {integrity: sha512-Lt5nucDlXjeKI6lnlyi04qjC7Mu7vjNM5ogKnM0+94BHmk40nSW8iF8l9DbraZPZcmkYq7A4YGZbzae4nJ/EnA==}
+    engines: {node: ^18.20.0 || ^20.10.0 || >=21.0.0}
+    dependencies:
+      '@babel/helper-validator-identifier': 8.0.0-alpha.10
+      js-tokens: 8.0.3
+      picocolors: 1.0.0
+    dev: false
 
   /@babel/highlight@8.0.0-alpha.6:
     resolution: {integrity: sha512-YzJ5blZXak7Gk6ZgV9a4B9bAkGzl594ZxmBaFFZkstA5hE1iOBTlUW4tkGKz2uomL7FLLW4qHJF3QjQLHKi7iw==}
@@ -5010,6 +5032,12 @@ packages:
 
   /@babel/runtime@7.23.9:
     resolution: {integrity: sha512-0CX6F+BI2s9dkUqr08KFrAIZgNFj75rdBU/DjCyYLIaV/quFjkk6T+EJ2LkZHyZTbEV4L5p97mNkUsHl2wLFAw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.1
+
+  /@babel/runtime@7.24.6:
+    resolution: {integrity: sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -6397,7 +6425,6 @@ packages:
     dependencies:
       react: 18.2.0
       tslib: 2.6.2
-    dev: false
 
   /@dnd-kit/core@6.1.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-J3cQBClB4TVxwGo3KEjssGEXNJqGVWx17aRTZ1ob0FliR5IjYgTxl5YJbKTzA6IzrtelotH19v6y7uoIRUZPSg==}
@@ -6410,7 +6437,6 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       tslib: 2.6.2
-    dev: false
 
   /@dnd-kit/modifiers@7.0.0(@dnd-kit/core@6.1.0)(react@18.2.0):
     resolution: {integrity: sha512-BG/ETy3eBjFap7+zIti53f0PCLGDzNXyTmn6fSdrudORf+OH04MxrW4p5+mPu4mgMk9kM41iYONjc3DOUWTcfg==}
@@ -6422,7 +6448,6 @@ packages:
       '@dnd-kit/utilities': 3.2.2(react@18.2.0)
       react: 18.2.0
       tslib: 2.6.2
-    dev: false
 
   /@dnd-kit/sortable@8.0.0(@dnd-kit/core@6.1.0)(react@18.2.0):
     resolution: {integrity: sha512-U3jk5ebVXe1Lr7c2wU7SBZjcWdQP+j7peHJfCspnA81enlu88Mgd7CC8Q+pub9ubP7eKVETzJW+IBAhsqbSu/g==}
@@ -6434,7 +6459,6 @@ packages:
       '@dnd-kit/utilities': 3.2.2(react@18.2.0)
       react: 18.2.0
       tslib: 2.6.2
-    dev: false
 
   /@dnd-kit/utilities@3.2.2(react@18.2.0):
     resolution: {integrity: sha512-+MKAJEOfaBe5SmV6t34p80MMKhjvUz0vRrvVJbPT0WElzaOJ/1xs+D+KDv+tD/NE5ujfrChEcshd4fLn0wpiqg==}
@@ -6443,7 +6467,6 @@ packages:
     dependencies:
       react: 18.2.0
       tslib: 2.6.2
-    dev: false
 
   /@electron/get@2.0.3:
     resolution: {integrity: sha512-Qkzpg2s9GnVV2I2BjRksUi43U5e6+zaQMcjoJy0C+C5oxaKl+fmckGDQFtRpZpZV0NQekuZZ+tGz7EA9TVnQtQ==}
@@ -8352,6 +8375,470 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@redux-devtools/app@6.0.1(@emotion/react@11.11.3)(@types/react-dom@18.2.19)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11):
+    resolution: {integrity: sha512-DHLcZ4OgdlliOghVH5PNC4VXqVt6mFkaiVm7UQJQjbEuDwbAa80Lbnjo1saaU2HoHK1xMLocjf2Jo7efHpEXaQ==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/chart-monitor': 5.0.2(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/inspector-monitor': 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/inspector-monitor-test-tab': 4.0.0(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/inspector-monitor-trace-tab': 4.0.1(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/log-monitor': 5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/rtk-query-monitor': 5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@4.0.0)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/slider-monitor': 5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3)(react@18.2.0)
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      d3-state-visualizer: 3.0.0
+      javascript-stringify: 2.1.0
+      jsan: 3.1.14
+      jsondiffpatch: 0.6.0
+      localforage: 1.10.0
+      lodash: 4.17.21
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-icons: 5.0.1(react@18.2.0)
+      react-is: 18.2.0
+      react-redux: 8.1.3(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      redux: 4.2.1
+      redux-persist: 6.0.0(react@18.2.0)(redux@4.2.1)
+      socketcluster-client: 19.1.0
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - '@types/react-dom'
+      - bufferutil
+      - react-native
+      - utf-8-validate
+    dev: false
+
+  /@redux-devtools/app@6.0.1(@emotion/react@11.11.3)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11):
+    resolution: {integrity: sha512-DHLcZ4OgdlliOghVH5PNC4VXqVt6mFkaiVm7UQJQjbEuDwbAa80Lbnjo1saaU2HoHK1xMLocjf2Jo7efHpEXaQ==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/chart-monitor': 5.0.2(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/inspector-monitor': 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/inspector-monitor-test-tab': 4.0.0(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/inspector-monitor-trace-tab': 4.0.1(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/log-monitor': 5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/rtk-query-monitor': 5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@4.0.0)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/slider-monitor': 5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11)
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3)(react@18.2.0)
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      d3-state-visualizer: 3.0.0
+      javascript-stringify: 2.1.0
+      jsan: 3.1.14
+      jsondiffpatch: 0.6.0
+      localforage: 1.10.0
+      lodash: 4.17.21
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-icons: 5.0.1(react@18.2.0)
+      react-is: 18.2.0
+      react-redux: 8.1.3(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      redux: 4.2.1
+      redux-persist: 6.0.0(react@18.2.0)(redux@4.2.1)
+      socketcluster-client: 19.1.0
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - '@types/react-dom'
+      - bufferutil
+      - react-native
+      - utf-8-validate
+    dev: false
+
+  /@redux-devtools/chart-monitor@5.0.2(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-5S70WvWufMa8ybwpFqxGqA65Mb8xV7e1gviKnGp6KGDn+EYo2bu+O+o5ugt/4WW4z4HgeXkNl3DawwjTUNc9aw==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@types/react': 18.2.55
+      d3-state-visualizer: 3.0.0
+      deepmerge: 4.3.1
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/chart-monitor@5.0.2(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-5S70WvWufMa8ybwpFqxGqA65Mb8xV7e1gviKnGp6KGDn+EYo2bu+O+o5ugt/4WW4z4HgeXkNl3DawwjTUNc9aw==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@types/react': 18.2.55
+      d3-state-visualizer: 3.0.0
+      deepmerge: 4.3.1
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/core@4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-9smPIgjVxSwCmA35SOwy/ZmlVdKfrdWQHxZdBeXw3G4u+guCl7hBLaOqqUhgceKdsX0IkdIr0v5TLpm2gQT2oQ==}
+    peerDependencies:
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-redux: ^7.0.0 || ^8.0.0 || ^9.0.0
+      redux: ^3.5.2 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/instrument': 2.2.0(redux@4.2.1)
+      lodash: 4.17.21
+      react: 18.2.0
+      react-redux: 8.1.3(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/dock-monitor@4.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-6KM7tVQphh7jZfeNeUvOii7z36QdKFMsjT2N7RncjxY5GP9OEmasQZzqXRY5IwnB7bHOeTW6jqANUWvZ6f2epA==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@types/react': 18.2.55
+      parse-key: 0.2.1
+      react: 18.2.0
+      react-dock: 0.7.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/inspector-monitor-test-tab@4.0.0(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11):
+    resolution: {integrity: sha512-a5SuX6eyFvBAK9UcRW/n5K8nSISWR+UGW0+fZh+KP20naSgkvagrzC705NX8riCfJc8fr5csIYVYwmypMAZ2UA==}
+    peerDependencies:
+      '@emotion/react': ^11.0.0
+      '@redux-devtools/inspector-monitor': ^6.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/inspector-monitor': 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      es6template: 1.0.5
+      javascript-stringify: 2.1.0
+      jsan: 3.1.14
+      object-path: 0.11.8
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-icons: 4.12.0(react@18.2.0)
+      redux: 4.2.1
+      simple-diff: 1.7.2
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    dev: false
+
+  /@redux-devtools/inspector-monitor-trace-tab@4.0.1(@emotion/react@11.11.3)(@redux-devtools/inspector-monitor@6.0.1)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-7tu/JU9wmpp74sBlBirgikrjJsx3IoJBKzUj9lO9ox9U9cJ/MhSo9B8ZAmLDI8EJa3CzxCcNQnDxW/Wucy17DQ==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@redux-devtools/inspector-monitor': ^6.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/code-frame': 8.0.0-alpha.10
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/inspector-monitor': 6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      '@types/chrome': 0.0.263
+      '@types/react': 18.2.55
+      anser: 2.1.1
+      html-entities: 2.5.2
+      path-browserify: 1.0.1
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-dom: 18.2.0(react@18.2.0)
+      redux: 4.2.1
+      source-map: 0.5.7
+    dev: false
+
+  /@redux-devtools/inspector-monitor@6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-FGUOrV3hEKrelqGSWmExKbBfXTEtLQ1yj+gLuPY2yAnZwFwOKzxybL5tsHCvVZsm/hgkA3WGcpYHtZ6+pJSWBg==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@dnd-kit/core': 6.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@dnd-kit/modifiers': 7.0.0(@dnd-kit/core@6.1.0)(react@18.2.0)
+      '@dnd-kit/sortable': 8.0.0(@dnd-kit/core@6.1.0)(react@18.2.0)
+      '@dnd-kit/utilities': 3.2.2(react@18.2.0)
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@types/lodash': 4.17.4
+      '@types/react': 18.2.55
+      dateformat: 5.0.3
+      hex-rgba: 1.0.2
+      immutable: 4.3.5
+      javascript-stringify: 2.1.0
+      jsondiffpatch: 0.6.0
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/inspector-monitor@6.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-FGUOrV3hEKrelqGSWmExKbBfXTEtLQ1yj+gLuPY2yAnZwFwOKzxybL5tsHCvVZsm/hgkA3WGcpYHtZ6+pJSWBg==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@dnd-kit/core': 6.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@dnd-kit/modifiers': 7.0.0(@dnd-kit/core@6.1.0)(react@18.2.0)
+      '@dnd-kit/sortable': 8.0.0(@dnd-kit/core@6.1.0)(react@18.2.0)
+      '@dnd-kit/utilities': 3.2.2(react@18.2.0)
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@types/lodash': 4.17.4
+      '@types/react': 18.2.55
+      dateformat: 5.0.3
+      hex-rgba: 1.0.2
+      immutable: 4.3.5
+      javascript-stringify: 2.1.0
+      jsondiffpatch: 0.6.0
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+
+  /@redux-devtools/instrument@2.2.0(redux@4.2.1):
+    resolution: {integrity: sha512-HKaL+ghBQ4ZQkM/kEQIKx8dNwz4E1oeiCDfdQlpPXxEi/BrisyrFFncAXb1y2HIJsLV9zSvQUR2jRtMDWgfi8w==}
+    peerDependencies:
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      lodash: 4.17.21
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/log-monitor@5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-NCuKr9hdruL01rbghKs/eD2lLcKhXmICXf2js2gTM9oDA2662+X9M9BahcJwjhkTUBxdsXbDQ5d/uGvxr530Vg==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@types/lodash.debounce': 4.0.9
+      '@types/react': 18.2.55
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/log-monitor@5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(react@18.2.0)(redux@4.2.1):
+    resolution: {integrity: sha512-NCuKr9hdruL01rbghKs/eD2lLcKhXmICXf2js2gTM9oDA2662+X9M9BahcJwjhkTUBxdsXbDQ5d/uGvxr530Vg==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@types/lodash.debounce': 4.0.9
+      '@types/react': 18.2.55
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+    dev: false
+
+  /@redux-devtools/rtk-query-monitor@5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@4.0.0)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11):
+    resolution: {integrity: sha512-mqYkEop8lgyswW4HxEDnPBsdxU/h3Rm+/q0KCbeuVSZU7Ek/gEgSnKAi++JvsTMPekgA1Uie94/kztOrB6Kv/w==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@redux-devtools/core': ^4.0.0
+      '@reduxjs/toolkit': ^1.0.0 || ^2.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3)(react@18.2.0)
+      '@types/lodash': 4.17.4
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      hex-rgba: 1.0.2
+      immutable: 4.3.5
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@redux-devtools/rtk-query-monitor@5.0.1(@emotion/react@11.11.3)(@redux-devtools/core@packages+redux-devtools)(@reduxjs/toolkit@1.9.7)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11):
+    resolution: {integrity: sha512-mqYkEop8lgyswW4HxEDnPBsdxU/h3Rm+/q0KCbeuVSZU7Ek/gEgSnKAi++JvsTMPekgA1Uie94/kztOrB6Kv/w==}
+    peerDependencies:
+      '@emotion/react': ^11.11.4
+      '@redux-devtools/core': ^4.0.0
+      '@reduxjs/toolkit': ^1.0.0 || ^2.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@emotion/react': 11.11.3(@types/react@18.2.55)(react@18.2.0)
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@reduxjs/toolkit': 1.9.7(react-redux@8.1.3)(react@18.2.0)
+      '@types/lodash': 4.17.4
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      hex-rgba: 1.0.2
+      immutable: 4.3.5
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-json-tree: 0.19.0(@types/react@18.2.55)(react@18.2.0)
+      redux: 4.2.1
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@redux-devtools/slider-monitor@5.0.1(@redux-devtools/core@4.0.0)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11):
+    resolution: {integrity: sha512-ud04CLxJNMpNfXKrfHtt4i7LbYCi3PVdcrQgU0X3qeEUWiXkvumZJIs0DPKSMk3Ukqy/G06SMNL4aqy6icjkLQ==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': 4.0.0(react-redux@8.1.3)(react@18.2.0)(redux@4.2.1)
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      redux: 4.2.1
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@redux-devtools/slider-monitor@5.0.1(@redux-devtools/core@packages+redux-devtools)(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)(styled-components@5.3.11):
+    resolution: {integrity: sha512-ud04CLxJNMpNfXKrfHtt4i7LbYCi3PVdcrQgU0X3qeEUWiXkvumZJIs0DPKSMk3Ukqy/G06SMNL4aqy6icjkLQ==}
+    peerDependencies:
+      '@redux-devtools/core': ^4.0.0
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.8.4 || ^17.0.0 || ^18.0.0
+      redux: ^3.4.0 || ^4.0.0 || ^5.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@redux-devtools/core': link:packages/redux-devtools
+      '@redux-devtools/ui': 1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)
+      '@types/react': 18.2.55
+      '@types/styled-components': 5.1.34
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      redux: 4.2.1
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@redux-devtools/ui@1.3.2(@types/react@18.2.55)(@types/styled-components@5.1.34)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11):
+    resolution: {integrity: sha512-/g9FSzvOSCkTXibd+h13kRE433/Zv4KVImQaanJsl8fc0MEfBSyFtGE1wjeIkwqs322EVBxw3fPWaQAC1gpLHg==}
+    peerDependencies:
+      '@types/react': ^16.3.0 || ^17.0.0 || ^18.0.0
+      '@types/styled-components': ^5.1.34
+      react: ^16.3.0 || ^17.0.0 || ^18.0.0
+      styled-components: ^5.3.11
+    dependencies:
+      '@babel/runtime': 7.24.6
+      '@rjsf/core': 4.2.3(react@18.2.0)
+      '@types/codemirror': 5.60.15
+      '@types/json-schema': 7.0.15
+      '@types/react': 18.2.55
+      '@types/simple-element-resize-detector': 1.3.3
+      '@types/styled-components': 5.1.34
+      codemirror: 5.65.16
+      color: 4.2.3
+      react: 18.2.0
+      react-base16-styling: 0.10.0
+      react-icons: 5.0.1(react@18.2.0)
+      react-select: 5.8.0(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)
+      simple-element-resize-detector: 1.3.0
+      styled-components: 5.3.11(@babel/core@7.23.9)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
   /@reduxjs/toolkit@1.9.7(react-redux@8.1.3)(react@18.2.0):
     resolution: {integrity: sha512-t7v8ZPxhhKgOKtU+uyJT13lu4vL7az5aFi4IdoDs/eS548edn2M8Ik9h8fxgvMjGoAUVFSt6ZC1P5cWmQ014QQ==}
     peerDependencies:
@@ -8871,7 +9358,7 @@ packages:
       ejs: 3.1.9
       esbuild: 0.18.20
       esbuild-plugin-alias: 0.2.1
-      express: 4.18.2
+      express: 4.19.2
       find-cache-dir: 3.3.2
       fs-extra: 11.2.0
       process: 0.11.10
@@ -8908,7 +9395,7 @@ packages:
       constants-browserify: 1.0.0
       css-loader: 6.10.0(webpack@5.90.1)
       es-module-lexer: 1.4.1
-      express: 4.18.2
+      express: 4.19.2
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.3.3)(webpack@5.90.1)
       fs-extra: 11.2.0
       html-webpack-plugin: 5.6.0(webpack@5.90.1)
@@ -8974,7 +9461,7 @@ packages:
       detect-indent: 6.1.0
       envinfo: 7.11.1
       execa: 5.1.1
-      express: 4.18.2
+      express: 4.19.2
       find-up: 5.0.0
       fs-extra: 11.2.0
       get-npm-tarball-url: 2.1.0
@@ -9121,7 +9608,7 @@ packages:
       cli-table3: 0.6.3
       compression: 1.7.4
       detect-port: 1.5.1
-      express: 4.18.2
+      express: 4.19.2
       fs-extra: 11.2.0
       globby: 11.1.0
       ip: 2.0.0
@@ -9816,6 +10303,13 @@ packages:
       '@types/filesystem': 0.0.35
       '@types/har-format': 1.2.15
 
+  /@types/chrome@0.0.263:
+    resolution: {integrity: sha512-As0vzv99ov3M6ZR7R6VzhMWFZXkPMrFrCEXXVrMN576Cm70fTkj7Df2CF+qEo170JepX50pd11cX6O4DSAtl2Q==}
+    dependencies:
+      '@types/filesystem': 0.0.35
+      '@types/har-format': 1.2.15
+    dev: false
+
   /@types/classnames@2.3.1:
     resolution: {integrity: sha512-zeOWb0JGBoVmlQoznvqXbE0tEC/HONsnoUNH19Hc96NFsTAwTXbTqb8FMYkru1F/iqp7a18Ws3nWJvtA1sHD1A==}
     deprecated: This is a stub types definition. classnames provides its own type definitions, so you do not need this installed.
@@ -10054,7 +10548,6 @@ packages:
 
   /@types/diff-match-patch@1.0.36:
     resolution: {integrity: sha512-xFdR6tkm0MWvBfO8xXCSsinYxHcqkQUlcHeSpMC2ukzOb6lwQAfDmW+Qt0AvlGd8HpsS28qKsB+oPeJn9I39jg==}
-    dev: false
 
   /@types/doctrine@0.0.3:
     resolution: {integrity: sha512-w5jZ0ee+HaPOaX25X2/2oGR/7rgAQSYII7X7pp0m9KgBfMP7uKfMfTvcpl5Dj+eDBbpxKGiqE+flqDr6XTd2RA==}
@@ -10238,7 +10731,6 @@ packages:
     resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
     dependencies:
       '@types/lodash': 4.14.202
-    dev: true
 
   /@types/lodash.curry@4.1.9:
     resolution: {integrity: sha512-QV967vSflHEza0d0IMTK7fwbl+baPBXZjcESeAHrA5eSE+EHetaggZjPpkzX1NJh4qa8DLOLScwUR+f7FN85Zg==}
@@ -10265,6 +10757,9 @@ packages:
 
   /@types/lodash@4.14.202:
     resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==}
+
+  /@types/lodash@4.17.4:
+    resolution: {integrity: sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==}
 
   /@types/long@4.0.2:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
@@ -11737,6 +12232,7 @@ packages:
   /binary-extensions@2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+    requiresBuild: true
 
   /bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
@@ -11775,6 +12271,7 @@ packages:
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   /body-parser@1.20.2:
     resolution: {integrity: sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA==}
@@ -11794,7 +12291,6 @@ packages:
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
 
   /bonjour-service@1.2.1:
     resolution: {integrity: sha512-oSzCS2zV14bh2kji6vNe7vrpJYCHGvcZnlffFQ1MEoX/WOeQ/teD8SYWKR942OI3INjq8OMNJlbPK5LLLUxFDw==}
@@ -12034,7 +12530,6 @@ packages:
   /chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
-    dev: false
 
   /char-regex@1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
@@ -12080,8 +12575,8 @@ packages:
     engines: {node: '>=6.0'}
     dev: true
 
-  /chromedriver@118.0.1:
-    resolution: {integrity: sha512-GlGfyRE47IuSJnuadIiDy89EMDMQFBVWxUmiclLJKzQhFsiWAtcIr/mNOxjljZdsw9IwIOQEkrB9wympKYFPLw==}
+  /chromedriver@119.0.1:
+    resolution: {integrity: sha512-lpCFFLaXPpvElTaUOWKdP74pFb/sJhWtWqMjn7Ju1YriWn8dT5JBk84BGXMPvZQs70WfCYWecxdMmwfIu1Mupg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -12224,7 +12719,6 @@ packages:
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
-    dev: false
 
   /color-support@1.1.3:
     resolution: {integrity: sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==}
@@ -12243,7 +12737,6 @@ packages:
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
-    dev: false
 
   /colord@2.9.3:
     resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
@@ -12418,6 +12911,10 @@ packages:
 
   /cookie@0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
+    engines: {node: '>= 0.6'}
+
+  /cookie@0.6.0:
+    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
 
   /cookiejar@2.1.4:
@@ -12831,6 +13328,17 @@ packages:
     dependencies:
       d3-path: 3.1.0
 
+  /d3-state-visualizer@3.0.0:
+    resolution: {integrity: sha512-69syDmi4b6sr9/UJUVpKTzFFx7jeI8AogEWv2qL/AWKky9b9NgqgMtSBbJNQdncq6epsOKP7a2MDun90taHtTQ==}
+    dependencies:
+      '@types/d3': 7.4.3
+      d3: 7.9.0
+      d3tooltip: 4.0.0(@types/d3@7.4.3)(d3@7.9.0)
+      deepmerge: 4.3.1
+      map2tree: 4.0.0
+      ramda: 0.29.1
+    dev: false
+
   /d3-time-format@4.1.0:
     resolution: {integrity: sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==}
     engines: {node: '>=12'}
@@ -12905,6 +13413,52 @@ packages:
       d3-transition: 3.0.1(d3-selection@3.0.0)
       d3-zoom: 3.0.0
 
+  /d3@7.9.0:
+    resolution: {integrity: sha512-e1U46jVP+w7Iut8Jt8ri1YsPOvFpg46k+K8TpCb0P+zjCkjkPnV7WzfDJzMHy1LnA+wj5pLT1wjO901gLXeEhA==}
+    engines: {node: '>=12'}
+    dependencies:
+      d3-array: 3.2.4
+      d3-axis: 3.0.0
+      d3-brush: 3.0.0
+      d3-chord: 3.0.1
+      d3-color: 3.1.0
+      d3-contour: 4.0.2
+      d3-delaunay: 6.0.4
+      d3-dispatch: 3.0.1
+      d3-drag: 3.0.0
+      d3-dsv: 3.0.1
+      d3-ease: 3.0.1
+      d3-fetch: 3.0.1
+      d3-force: 3.0.0
+      d3-format: 3.1.0
+      d3-geo: 3.1.0
+      d3-hierarchy: 3.1.2
+      d3-interpolate: 3.0.1
+      d3-path: 3.1.0
+      d3-polygon: 3.0.1
+      d3-quadtree: 3.0.1
+      d3-random: 3.0.1
+      d3-scale: 4.0.2
+      d3-scale-chromatic: 3.0.0
+      d3-selection: 3.0.0
+      d3-shape: 3.2.0
+      d3-time: 3.1.0
+      d3-time-format: 4.1.0
+      d3-timer: 3.0.1
+      d3-transition: 3.0.1(d3-selection@3.0.0)
+      d3-zoom: 3.0.0
+    dev: false
+
+  /d3tooltip@4.0.0(@types/d3@7.4.3)(d3@7.9.0):
+    resolution: {integrity: sha512-jQRmF04fL9G+sROeN1/CZaHRqE31Pl7Qky6qIJ2MkecTwXZtgfDgmgrPZ0VS5Ewnj9sYWJ6CAl6fYI4PNn2Fpw==}
+    peerDependencies:
+      '@types/d3': ^7.4.3
+      d3: ^7.9.0
+    dependencies:
+      '@types/d3': 7.4.3
+      d3: 7.9.0
+    dev: false
+
   /damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
@@ -12928,7 +13482,6 @@ packages:
   /dateformat@5.0.3:
     resolution: {integrity: sha512-Kvr6HmPXUMerlLcLF+Pwq3K7apHpYmGDVqrxcDasBg86UcKeTSNWbEzU8bwdXnxnR44FtMhJAxI4Bov6Y/KUfA==}
     engines: {node: '>=12.20'}
-    dev: false
 
   /debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -13213,7 +13766,6 @@ packages:
 
   /diff-match-patch@1.0.5:
     resolution: {integrity: sha512-IayShXAgj/QMXgB0IWmKx+rOPuGMhqm5w6jvFxmVenXKIzRqTAAsbBPT3kWQeGANj3jGgvcvv4yK6SxqYmikgw==}
-    dev: false
 
   /diff-sequences@29.6.3:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
@@ -14162,6 +14714,45 @@ packages:
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /express@4.19.2:
+    resolution: {integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==}
+    engines: {node: '>= 0.10.0'}
+    dependencies:
+      accepts: 1.3.8
+      array-flatten: 1.1.1
+      body-parser: 1.20.2
+      content-disposition: 0.5.4
+      content-type: 1.0.5
+      cookie: 0.6.0
+      cookie-signature: 1.0.6
+      debug: 2.6.9
+      depd: 2.0.0
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      finalhandler: 1.2.0
+      fresh: 0.5.2
+      http-errors: 2.0.0
+      merge-descriptors: 1.0.1
+      methods: 1.1.2
+      on-finished: 2.4.1
+      parseurl: 1.3.3
+      path-to-regexp: 0.1.7
+      proxy-addr: 2.0.7
+      qs: 6.11.0
+      range-parser: 1.2.1
+      safe-buffer: 5.2.1
+      send: 0.18.0
+      serve-static: 1.15.0
+      setprototypeof: 1.2.0
+      statuses: 2.0.1
+      type-is: 1.6.18
+      utils-merge: 1.0.1
+      vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
 
   /extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
@@ -14313,6 +14904,7 @@ packages:
   /fill-range@7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       to-regex-range: 5.0.1
 
@@ -15010,7 +15602,6 @@ packages:
 
   /hex-rgba@1.0.2:
     resolution: {integrity: sha512-MKla68wFGv+i7zU3Q4giWN74f+zWdkuf2Tk21fISV7aw55r8dH/noBbH5JsVlM4Z2WRTYCEmSxsoZ1QR/o68jg==}
-    dev: false
 
   /hexoid@1.0.0:
     resolution: {integrity: sha512-QFLV0taWQOZtvIRIAdBChesmogZrtuXvVWsFHZTk2SU+anspqZ2vMnoLg7IE1+Uk16N19APic1BuF8bC8c2m5g==}
@@ -15044,6 +15635,10 @@ packages:
 
   /html-entities@2.4.0:
     resolution: {integrity: sha512-igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==}
+
+  /html-entities@2.5.2:
+    resolution: {integrity: sha512-K//PSRMQk4FZ78Kyau+mZurHn3FH0Vwr+H36eE0rPbeYkRRi9YxceYPhuN60UwWorxyKHhqoAJl2OFKa4BVtaA==}
+    dev: false
 
   /html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
@@ -15431,7 +16026,6 @@ packages:
 
   /is-arrayish@0.3.2:
     resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
-    dev: false
 
   /is-async-function@2.0.0:
     resolution: {integrity: sha512-Y1JXKrfykRJGdlDwdKlLpLyMIiWqWvuSd17TvZk68PLAOGOoF4Xyav1z0Xhoi+gCYjZVeC5SI+hYFOfvXmGRCA==}
@@ -15449,6 +16043,7 @@ packages:
   /is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       binary-extensions: 2.2.0
 
@@ -15606,6 +16201,7 @@ packages:
   /is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
+    requiresBuild: true
 
   /is-path-cwd@2.2.0:
     resolution: {integrity: sha512-w942bTcih8fdJPJmQHFzkS76NEP8Kzzvmw92cXsazb8intwLqPibPPdXf4ANdKV3rYMuuQYGIWtvz9JilB3NFQ==}
@@ -15870,7 +16466,6 @@ packages:
 
   /javascript-stringify@2.1.0:
     resolution: {integrity: sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==}
-    dev: false
 
   /jest-changed-files@29.7.0:
     resolution: {integrity: sha512-fEArFiwf1BpQ+4bXSprcDc3/x4HSzL4al2tozwVpDFpsxALjLYdyiIK4e5Vz66GQJIbXJ82+35PtysofptNX2w==}
@@ -16496,7 +17091,6 @@ packages:
       '@types/diff-match-patch': 1.0.36
       chalk: 5.3.0
       diff-match-patch: 1.0.5
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -16991,6 +17585,12 @@ packages:
   /map-or-similar@1.5.0:
     resolution: {integrity: sha512-0aF7ZmVon1igznGI4VS30yugpduQW3y3GkcgGJOp7d8x8QrizhigUxjI/m2UojsXXto+jLAH3KSz+xOJTiORjg==}
     dev: true
+
+  /map2tree@4.0.0:
+    resolution: {integrity: sha512-nzoeFAjW5yCwLFpV3A6EZS3kHD6H9y82S0KANc8tN2Mha+Ad2vIggDqxxYdI8lgghHzQL3yf/6tqlcoplRw8NA==}
+    dependencies:
+      lodash-es: 4.17.21
+    dev: false
 
   /markdown-to-jsx@7.4.1(react@18.2.0):
     resolution: {integrity: sha512-GbrbkTnHp9u6+HqbPRFJbObi369AgJNXi/sGqq5HRsoZW063xR1XDCaConqq+whfEIAlzB1YPnOgsPc7B7bc/A==}
@@ -18339,21 +18939,21 @@ packages:
       pug-runtime: 3.0.1
     dev: true
 
-  /pug-code-gen@3.0.2:
-    resolution: {integrity: sha512-nJMhW16MbiGRiyR4miDTQMRWDgKplnHyeLvioEJYbk1RsPI3FuA3saEP8uwnTb2nTJEKBU90NFVWJBk4OU5qyg==}
+  /pug-code-gen@3.0.3:
+    resolution: {integrity: sha512-cYQg0JW0w32Ux+XTeZnBEeuWrAY7/HNE6TWnhiHGnnRYlCgyAUPoyh9KzCMa9WhcJlJ1AtQqpEYHc+vbCzA+Aw==}
     dependencies:
       constantinople: 4.0.1
       doctypes: 1.1.0
       js-stringify: 1.0.2
       pug-attrs: 3.0.0
-      pug-error: 2.0.0
+      pug-error: 2.1.0
       pug-runtime: 3.0.1
       void-elements: 3.1.0
       with: 7.0.2
     dev: true
 
-  /pug-error@2.0.0:
-    resolution: {integrity: sha512-sjiUsi9M4RAGHktC1drQfCr5C5eriu24Lfbt4s+7SykztEOwVZtbFk1RRq0tzLxcMxMYTBR+zMQaG07J/btayQ==}
+  /pug-error@2.1.0:
+    resolution: {integrity: sha512-lv7sU9e5Jk8IeUheHata6/UThZ7RK2jnaaNztxfPYUY+VxZyk/ePVaNZ/vwmH8WqGvDz3LrNYt/+gA55NDg6Pg==}
     dev: true
 
   /pug-filters@4.0.0:
@@ -18361,7 +18961,7 @@ packages:
     dependencies:
       constantinople: 4.0.1
       jstransformer: 1.0.0
-      pug-error: 2.0.0
+      pug-error: 2.1.0
       pug-walk: 2.0.0
       resolve: 1.22.8
     dev: true
@@ -18371,13 +18971,13 @@ packages:
     dependencies:
       character-parser: 2.2.0
       is-expression: 4.0.0
-      pug-error: 2.0.0
+      pug-error: 2.1.0
     dev: true
 
   /pug-linker@4.0.0:
     resolution: {integrity: sha512-gjD1yzp0yxbQqnzBAdlhbgoJL5qIFJw78juN1NpTLt/mfPJ5VgC4BvkoD3G23qKzJtIIXBbcCt6FioLSFLOHdw==}
     dependencies:
-      pug-error: 2.0.0
+      pug-error: 2.1.0
       pug-walk: 2.0.0
     dev: true
 
@@ -18391,7 +18991,7 @@ packages:
   /pug-parser@6.0.0:
     resolution: {integrity: sha512-ukiYM/9cH6Cml+AOl5kETtM9NR3WulyVP2y4HOU45DyMim1IeP/OOiyEWRr6qk5I5klpsBnbuHpwKmTx6WURnw==}
     dependencies:
-      pug-error: 2.0.0
+      pug-error: 2.1.0
       token-stream: 1.0.0
     dev: true
 
@@ -18402,17 +19002,17 @@ packages:
   /pug-strip-comments@2.0.0:
     resolution: {integrity: sha512-zo8DsDpH7eTkPHCXFeAk1xZXJbyoTfdPlNR0bK7rpOMuhBYb0f5qUVCO1xlsitYd3w5FQTK7zpNVKb3rZoUrrQ==}
     dependencies:
-      pug-error: 2.0.0
+      pug-error: 2.1.0
     dev: true
 
   /pug-walk@2.0.0:
     resolution: {integrity: sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ==}
     dev: true
 
-  /pug@3.0.2:
-    resolution: {integrity: sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw==}
+  /pug@3.0.3:
+    resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
     dependencies:
-      pug-code-gen: 3.0.2
+      pug-code-gen: 3.0.3
       pug-filters: 4.0.0
       pug-lexer: 5.0.1
       pug-linker: 4.0.0
@@ -18537,6 +19137,7 @@ packages:
       http-errors: 2.0.0
       iconv-lite: 0.4.24
       unpipe: 1.0.0
+    dev: true
 
   /raw-body@2.5.2:
     resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
@@ -18546,7 +19147,6 @@ packages:
       http-errors: 2.0.0
       iconv-lite: 0.4.24
       unpipe: 1.0.0
-    dev: false
 
   /rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
@@ -18557,6 +19157,14 @@ packages:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
     dev: false
+
+  /react-base16-styling@0.10.0:
+    resolution: {integrity: sha512-H1k2eFB6M45OaiRru3PBXkuCcn2qNmx+gzLb4a9IPMR7tMH8oBRXU5jGbPDYG1Hz+82d88ED0vjR8BmqU3pQdg==}
+    dependencies:
+      '@types/lodash': 4.17.4
+      color: 4.2.3
+      csstype: 3.1.3
+      lodash-es: 4.17.21
 
   /react-bootstrap@2.10.0(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-87gRP69VAfeU2yKgp8RI3HvzhPNrnYIV2QNranYXataz3ef+k7OhvKGGdxQLQfUsQ2RTmlY66tn4pdFrZ94hNg==}
@@ -18630,6 +19238,18 @@ packages:
       - supports-color
     dev: true
 
+  /react-dock@0.7.0(@types/react@18.2.55)(react@18.2.0):
+    resolution: {integrity: sha512-stSUWh5FYSZVkirnQx7uCF3w/b5KI3W+TU9Gf7ng+/l/0yYgyYi0x21pH0yYQWyXqim89O18GXxyCjL0EyJWHw==}
+    peerDependencies:
+      '@types/react': ^16.3.0 || ^17.0.0 || ^18.0.0
+      react: ^16.3.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@types/lodash-es': 4.17.12
+      '@types/react': 18.2.55
+      lodash-es: 4.17.21
+      react: 18.2.0
+    dev: false
+
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -18675,6 +19295,14 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.55)(react@18.2.0)
     dev: false
 
+  /react-icons@4.12.0(react@18.2.0):
+    resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /react-icons@5.0.1(react@18.2.0):
     resolution: {integrity: sha512-WqLZJ4bLzlhmsvme6iFdgO8gfZP17rfjYEJ2m9RsZjZ+cc4k1hTzknEz63YS1MeT50kVzoa1Nz36f4BEx+Wigw==}
     peerDependencies:
@@ -18699,6 +19327,17 @@ packages:
 
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+
+  /react-json-tree@0.19.0(@types/react@18.2.55)(react@18.2.0):
+    resolution: {integrity: sha512-PqT1WRVcWP+RROsZPQfNEKIC1iM/ZMfY4g5jN6oDnXp5593PPRAYgoHcgYCDjflAHQMtxl8XGdlTwIBdEGUXvw==}
+    peerDependencies:
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@types/lodash': 4.17.4
+      '@types/react': 18.2.55
+      react: 18.2.0
+      react-base16-styling: 0.10.0
 
   /react-lifecycles-compat@3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
@@ -18947,6 +19586,7 @@ packages:
   /readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
+    requiresBuild: true
     dependencies:
       picomatch: 2.3.1
 
@@ -19596,7 +20236,6 @@ packages:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
       is-arrayish: 0.3.2
-    dev: false
 
   /sinon-chrome@3.0.1:
     resolution: {integrity: sha512-NTEFhyuiWEMnRmIqldUiA2DhKn2EqnZxyEk5Ez5rBXj+Nl54aJ0MEmF4wjltrxecxd8zlNLxyE0HyLabev9JsQ==}
@@ -20006,6 +20645,7 @@ packages:
 
   /string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
+    requiresBuild: true
     dependencies:
       safe-buffer: 5.2.1
 
@@ -20533,6 +21173,7 @@ packages:
   /to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dependencies:
       is-number: 7.0.0
 
